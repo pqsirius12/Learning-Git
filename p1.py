@@ -1,7 +1,7 @@
 
 print("Hello, world")
 print("A new language a new day.")
-c = input("Choose a function 1. is_even 2. factorial")
+c = int(input("Choose a function 1. is_even 2. factorial :"))
 
 def is_even(n):
 	if n%2==0:
